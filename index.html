@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="updated_image1.png" alt="Movie Logo" />
+      </div>
+      <form id="form" class="search-container">
+        <input
+          type="text"
+          placeholder="Search for movies..."
+          id="search"
+          class="search"
+        />
+      </form>
+      <div class="nav-buttons">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="#" id="about-btn" class="nav-btn">About</a>
+      </div>
+    </header>
+    <main id="main"></main>
+
+    <!-- Modal for About -->
+    <div id="about-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>About This Website</h2>
+        <p>
+          This movie search app is designed to help users find information about 
+          their favorite movies. Made with ❤️ by Sparsh, Shreya, Vanshika, and Snehil.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
